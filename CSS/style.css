@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: pop-reg;
+    src: url(/Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: pop-bold;
+    src: url(/Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: bit-reg;
+    src: url(/Fonts/Bitter-Regular.ttf);
+}
+
+@font-face {
+    font-family: bit-semi;
+    src: url(/Fonts/Bitter-SemiBold.ttf);
+}
+
+
+.imageoverly {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h6 {
+    font-family: bit-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.centered .img-text {
+    font-family: pop-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #292a2b;
+}
+
+.centered button {
+    font-family: pop-bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.centered span {
+    margin-left: 0 41px;
+}
+
+.unorder,
+ul,
+li,
+h4 {
+    margin-top: 5%;
+    margin: 10px;
+    display: inline-block;
+}
+
+.carousel-control-prev-icon {
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+}
+
+.carousel-control-next-icon {
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+}
+
+.footer {
+    background-color: #262626;
+}
+
+.collapse ul li {
+    font-family: pop-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.onetext p {
+    font-family: bit-semi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.grido .gridt,
+h5 {
+    font-family: bit-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.grido .gridt,
+p {
+    font-family: pop-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.headslide h3 {
+    font-family: bit-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.headslide h6 {
+    font-family: bit-semi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.headslide .red-text {
+    color: #FF2D2D;
+}
+
+.headslide p {
+    color: #000000;
+}
+
+.imageprod {
+    position: relative;
+}
+
+.prdccen {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.prdccen .h3class {
+    font-family: bit-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.prdccen .h6class {
+    font-family: pop-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.socialmed {
+    font-family: bit-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.pop-regt {
+    font-family: pop-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.h5class {
+    font-family: bit-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-group p{
+    font-family: pop-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
